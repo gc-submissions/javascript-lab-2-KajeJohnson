@@ -23,6 +23,13 @@ const chooseOption = (opt1, opt2) => {
 };
 console.log(chooseOption("opt1", "opt2"));
 
+function attackPlayer(health) {
+  let number = 0;
+  number = health - randomDamage();
+  return number;
+}
+console.log(attackPlayer(10));
+
 //last -- fight function = while loop
 //test your isDead function with numbers
 //did you make it <=
