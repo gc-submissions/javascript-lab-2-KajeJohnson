@@ -24,9 +24,7 @@ const chooseOption = (opt1, opt2) => {
 console.log(chooseOption("opt1", "opt2"));
 
 function attackPlayer(health) {
-  let number = 0;
-  number = health - randomDamage();
-  return number;
+  return (health -= randomDamage());
 }
 console.log(attackPlayer(10));
 
