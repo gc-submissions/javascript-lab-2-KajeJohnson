@@ -37,6 +37,15 @@ const logHealth = (player, health) => {
 };
 logHealth("Kaje", 100);
 
+// Declare an arrow function named logDeath that has two parameters named winner
+// and loser which has a console.log method to state the following message: “winner
+// defeated loser
+
+const logDeath = (winner, loser) => {
+  console.log(`${winner} defeated ${loser}`);
+};
+logDeath("Kaje", "Mitch");
+
 //last -- fight function = while loop
 //test your isDead function with numbers
 //did you make it <=
