@@ -28,6 +28,15 @@ function attackPlayer(health) {
 }
 console.log(attackPlayer(10));
 
+// Declare an arrow function named logHealth that has two parameters named player
+// and health which has a console.log method to state the following message: “player
+// health: health”.
+
+const logHealth = (player, health) => {
+  console.log(`${player} health: ${health}`);
+};
+logHealth("Kaje", 100);
+
 //last -- fight function = while loop
 //test your isDead function with numbers
 //did you make it <=
